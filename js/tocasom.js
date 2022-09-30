@@ -1,5 +1,12 @@
-function tocaSom(nomeArquivo)
-{
-    const som = new Audio(`../audios/${nomeArquivo}.mp3`);
+function tocaSom(botaoClicado) {
+    audios = document.querySelectorAll('audio')
+    audios.forEach(audio => {
+        if (audios.length) {
+            audio.currentTime = 0
+        }
+    })
+    console.log(botaoClicado);
+    const som = botaoClicado.querySelector("audio");
+    console.log(som);
     som.play();
 }
