@@ -1,0 +1,22 @@
+.sons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #ffff;
+    font-family: sans-serif;
+}
+.sons .som{
+    background-color: rgb(45, 116, 248);
+    padding: .5rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin: 1rem 0rem;
+    cursor: pointer;
+}
+.sons .som h3{
+    font-size: 3rem;
+}
